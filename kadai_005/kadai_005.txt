@@ -16,7 +16,7 @@ d----          2025/02/17    16:25                git_challenge
 
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai> cd .\git_challenge
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git init
-Initialized empty Git repository in D:/My_projects/03_AI/03_ƒXƒN[ƒ‹/SAMURAI/01_Kyouzai/git_challenge/.git/
+Initialized empty Git repository in D:/My_projects/03_AI/03_school/SAMURAI/01_Kyouzai/git_challenge/.git/
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> New-Item -Path "hello_world.txt" -itemType File
 
     Directory: D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge
