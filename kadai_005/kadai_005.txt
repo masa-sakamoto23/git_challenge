@@ -1,4 +1,4 @@
-PS C:\Users\‚Ü‚³‚Ð‚ë> d:
+PS C:\Users\ã¾ã•ã²ã‚> d:
 PS D:\> cd .\My_projects 
 PS D:\My_projects> cd .\03_AI
 PS D:\My_projects\03_AI> cd .\03_school
@@ -35,18 +35,18 @@ index 0000000..af5626b
 +++ b/hello_world.txt
 @@ -0,0 +1 @@
 +Hello, world!
-PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "hello_world.txt‚ð’Ç‰Á"
-[main (root-commit) dd60c01] hello_world.txt‚ð’Ç‰Á
+PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "hello_world.txtã‚’è¿½åŠ "
+[main (root-commit) dd60c01] hello_world.txtã‚’è¿½åŠ 
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
-PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> echo "‚±‚ñ‚É‚¿‚ÍA¢ŠEI" >> hello_world.txt 
+PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> echo "ã“ã‚“ã«ã¡ã¯ã€ä¸–ç•Œï¼" >> hello_world.txt 
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add hello_world.txt
-PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "“ú–{Œê–ó‚ð’Ç‰Á"
-[main 7043d0c] “ú–{Œê–ó‚ð’Ç‰Á
+PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "æ—¥æœ¬èªžè¨³ã‚’è¿½åŠ "
+[main 7043d0c] æ—¥æœ¬èªžè¨³ã‚’è¿½åŠ 
  1 file changed, 1 insertion(+)
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline
-7043d0c (HEAD -> main) “ú–{Œê–ó‚ð’Ç‰Á
-dd60c01 hello_world.txt‚ð’Ç‰Á
+7043d0c (HEAD -> main) æ—¥æœ¬èªžè¨³ã‚’è¿½åŠ 
+dd60c01 hello_world.txtã‚’è¿½åŠ 
 PS D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> mkdir kadai_005    
 
     Directory: D:\My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge
