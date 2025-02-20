@@ -1,0 +1,125 @@
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        kadai_010.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add .\kadai_010.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline
+f5a61c0 (HEAD -> main) kadai_005.txtをUTF-8で保存
+75773bb kadai_005.txtを変更
+baf57d7 Reapply "kadai_005.txtを変更"
+e18292c Revert "kadai_005.txtを変更"
+d0b52ff kadai_005.txtを変更
+d498099 kadai_005.txtを追加
+7043d0c 日本語訳を追加
+dd60c01 hello_world.txtを追加
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline > henkou_rireki.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add .\henkou_rireki.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   henkou_rireki.txt
+        new file:   kadai_010.txt
+
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "変更履歴、コマンド履歴を追加"
+[main e964e74] 変更履歴、コマンド履歴を追加
+ 2 files changed, 18 insertions(+)
+ create mode 100644 henkou_rireki.txt
+ create mode 100644 kadai_010.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline
+e964e74 (HEAD -> main) 変更履歴、コマンド履歴を追加
+f5a61c0 kadai_005.txtをUTF-8で保存
+75773bb kadai_005.txtを変更
+baf57d7 Reapply "kadai_005.txtを変更"
+e18292c Revert "kadai_005.txtを変更"
+d0b52ff kadai_005.txtを変更
+d498099 kadai_005.txtを追加
+7043d0c 日本語訳を追加
+dd60c01 hello_world.txtを追加
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git push -u origin main
+Enter passphrase for key '/c/Users/mkino/.ssh/id_rsa': 
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (28/28), 4.29 KiB | 1.07 MiB/s, done.
+Total 28 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To github.com:masa-sakamoto23/git_challenge.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git co -b pull_request    
+Switched to a new branch 'pull_request'
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch
+  main
+* pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git co main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch 
+* main
+  pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git co pull_request    
+Switched to branch 'pull_request'
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch        
+  main
+* pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git diff .
+diff --git a/hello_world.txt b/hello_world.txt
+index 8ee003c..37d582a 100644
+--- a/hello_world.txt
++++ b/hello_world.txt
+@@ -1,2 +1,2 @@
+ Hello, world!
+-こんにちは、世界！
++こんばんは、世界！
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add .\hello_world.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "hello_world.txtを変更"
+[pull_request 324a26d] hello_world.txtを変更
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline > henkou_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git log --oneline
+324a26d (HEAD -> pull_request) hello_world.txtを変更
+e964e74 (origin/main, main) 変更履歴、コマンド履歴を追加
+f5a61c0 kadai_005.txtをUTF-8で保存
+75773bb kadai_005.txtを変更
+baf57d7 Reapply "kadai_005.txtを変更"
+e18292c Revert "kadai_005.txtを変更"
+d0b52ff kadai_005.txtを変更
+d498099 kadai_005.txtを追加
+7043d0c 日本語訳を追加
+dd60c01 hello_world.txtを追加
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch
+  main
+* pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git status
+On branch pull_request
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        henkou_rireki2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add .\henkou_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "変更履歴(henkou_rireki2.txt)を追加"
+[pull_request 59237cd] 変更履歴(henkou_rireki2.txt)を追加
+ 1 file changed, 10 insertions(+)
+ create mode 100644 henkou_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git push origin pull_request
+Enter passphrase for key '/c/Users/mkino/.ssh/id_rsa': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 937 bytes | 937.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'pull_request' on GitHub by visiting:
+remote:      https://github.com/masa-sakamoto23/git_challenge/pull/new/pull_request      
+remote:
+To github.com:masa-sakamoto23/git_challenge.git
+ * [new branch]      pull_request -> pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> 
