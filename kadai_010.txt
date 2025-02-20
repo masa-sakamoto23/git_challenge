@@ -1,0 +1,10 @@
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git init
+Reinitialized existing Git repository in D:/01_My_projects/03_AI/03_school/SAMURAI/01_Kyouzai/git_challenge/.git/
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> ssh -T git@github.com
+Enter passphrase for key 'C:\Users\mkino/.ssh/id_rsa': 
+Hi masa-sakamoto23! You've successfully authenticated, but GitHub does not provide shell access.
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git remote add origin git@github.com:masa-sakamoto23/git_challenge.git
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git remote -v     
+origin  git@github.com:masa-sakamoto23/git_challenge.git (fetch)
+origin  git@github.com:masa-sakamoto23/git_challenge.git (push)
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge>

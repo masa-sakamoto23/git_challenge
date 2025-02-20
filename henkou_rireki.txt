@@ -1,0 +1,8 @@
+f5a61c0 (HEAD -> main) kadai_005.txtをUTF-8で保存
+75773bb kadai_005.txtを変更
+baf57d7 Reapply "kadai_005.txtを変更"
+e18292c Revert "kadai_005.txtを変更"
+d0b52ff kadai_005.txtを変更
+d498099 kadai_005.txtを追加
+7043d0c 日本語訳を追加
+dd60c01 hello_world.txtを追加
