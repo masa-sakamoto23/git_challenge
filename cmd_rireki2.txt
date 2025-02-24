@@ -122,4 +122,57 @@ remote:      https://github.com/masa-sakamoto23/git_challenge/pull/new/pull_requ
 remote:
 To github.com:masa-sakamoto23/git_challenge.git
  * [new branch]      pull_request -> pull_request
-PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> 
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git status
+On branch pull_request
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cmd_rireki2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch
+  main
+* pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git add .\cmd_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git commit -m "コマンド履歴(cmd_rireki.txt)を追加"
+[pull_request d331552] コマンド履歴(cmd_rireki.txt)を追加
+ 1 file changed, 125 insertions(+)
+ create mode 100644 cmd_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git push origin pull_request
+Enter passphrase for key '/c/Users/mkino/.ssh/id_rsa': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.62 KiB | 1.63 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:masa-sakamoto23/git_challenge.git
+   59237cd..d331552  pull_request -> pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git co main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch
+* main
+  pull_request
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch -D pull_request
+Deleted branch pull_request (was d331552).
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git branch
+* main
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge> git pull
+Enter passphrase for key '/c/Users/mkino/.ssh/id_rsa': 
+remote: Enumerating objects: 2, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 1.82 KiB | 26.00 KiB/s, done.
+From github.com:masa-sakamoto23/git_challenge
+   e964e74..36d6239  main       -> origin/main
+Updating e964e74..36d6239
+Fast-forward
+ cmd_rireki2.txt    | 125 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ hello_world.txt    |   2 +-
+ henkou_rireki2.txt |  10 +++++
+ 3 files changed, 136 insertions(+), 1 deletion(-)
+ create mode 100644 cmd_rireki2.txt
+ create mode 100644 henkou_rireki2.txt
+PS D:\01_My_projects\03_AI\03_school\SAMURAI\01_Kyouzai\git_challenge>
